@@ -22,7 +22,7 @@ docker run --name bareos-db \
 ```
 Get terminal inside container:
 ```
-docker exec -ti bareos-director bash
+docker exec -ti bareos-db bash
 ```
 
 ### Example director docker run statement
@@ -41,6 +41,6 @@ $ docker run --name bareos-director \
 ```
 Get terminal inside container:
 ```
-docker exec -ti bareos-db bash
+docker exec -ti bareos-director bash
 ```
 
